@@ -45,7 +45,7 @@
 
 .button-72 {
     align-items: center;
-    background-color: #001d3d;
+    background-color: #003566;
     /* background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%); */
     border-radius: 42px;
     border-width: 0;
@@ -89,12 +89,12 @@
 
 
 
-.fontCenter{
+/* .fontCenter{
     padding-left: 500px;
-}
+} */
 
 .fontPadding{
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 .button-85 {
@@ -170,4 +170,9 @@
     padding-top: 100px;
     justify-content: center;
     display: flex;
+}
+
+.MiddlePart{
+  align-items: center;
+  justify-content: center;
 }
