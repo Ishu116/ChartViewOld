@@ -39,8 +39,8 @@
 
 .col{
     justify-content: center;
-    display: flex;
     color: white;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .button-72 {
@@ -126,3 +126,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.image{
+  text-align: center;
+}
+
+/* .style{
+  border: 1px solid white;
+} */
