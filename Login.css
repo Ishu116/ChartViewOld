@@ -29,7 +29,7 @@ html {
     text-rendering: optimizeLegibility;
 }
 body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Josefin Sans, sans-serif;
     font-size: 1rem;
     font-weight: normal;
     line-height: 1.5;
@@ -46,12 +46,12 @@ a, button {
     background: none;
     text-decoration: none;
 }
-img {
+/* img {
     display: block;
     width: 100%;
     height: auto;
     object-fit: cover;
-} 
+}  */
 .container {
     display: flex;
     justify-content: center;
@@ -219,4 +219,50 @@ img {
     font-size: 30px;
     color: #001d3d;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+/* nav bar */
+.background {
+    background-color: #001d3d;
+}
+
+.fontPadding {
+    padding-right: 15px;
+    font-family: Josefin Sans, sans-serif;
+}
+
+.button-72 {
+    align-items: center;
+    background-color: #001d3d;
+    border-radius: 42px;
+    border-width: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: center;
+    letter-spacing: .04em;
+    line-height: 16px;
+    margin: 0;
+    padding: 18px 18px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+}
+
+.button-72:hover {
+    background-color: #001d3d;
+    border: 1px solid white;
+}
+
+@media (min-width: 768px) {
+    .button-72 {
+        font-size: 21px;
+        padding: 18px 34px;
+    }
 }
