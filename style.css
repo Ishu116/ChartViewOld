@@ -45,7 +45,7 @@
 
 .button-72 {
     align-items: center;
-    background-color: #003566;
+    background-color: #001d3d;
     border-radius: 42px;
     border-width: 0;
     color: #FFFFFF;
@@ -68,7 +68,7 @@
   }
   
   .button-72:hover {
-    background-color: #003566;
+    background-color: #001d3d;
     border: 1px solid white;
   }
   
